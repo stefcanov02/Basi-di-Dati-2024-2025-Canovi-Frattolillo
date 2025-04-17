@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.4.16)  17 APR 2025 19:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.4.16)  17 APR 2025 23:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -783,25 +783,44 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@lastruleclass=\count344
 \@thisrulewidth=\dimen298
 )
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
+\LTleft=\skip64
+\LTright=\skip65
+\LTpre=\skip66
+\LTpost=\skip67
+\LTchunksize=\count345
+\LTcapwidth=\dimen299
+\LT@head=\box67
+\LT@firsthead=\box68
+\LT@foot=\box69
+\LT@lastfoot=\box70
+\LT@gbox=\box71
+\LT@cols=\count346
+\LT@rows=\count347
+\c@LT@tables=\count348
+\c@LT@chunks=\count349
+\LT@p@ftn=\toks43
+)
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count345
-\lst@gtempboxa=\box67
-\lst@token=\toks43
-\lst@length=\count346
-\lst@currlwidth=\dimen299
-\lst@column=\count347
-\lst@pos=\count348
-\lst@lostspace=\dimen300
-\lst@width=\dimen301
-\lst@newlines=\count349
-\lst@lineno=\count350
-\lst@maxwidth=\dimen302
+\lst@mode=\count350
+\lst@gtempboxa=\box72
+\lst@token=\toks44
+\lst@length=\count351
+\lst@currlwidth=\dimen300
+\lst@column=\count352
+\lst@pos=\count353
+\lst@lostspace=\dimen301
+\lst@width=\dimen302
+\lst@newlines=\count354
+\lst@lineno=\count355
+\lst@maxwidth=\dimen303
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
-\c@lstnumber=\count351
-\lst@skipnumbers=\count352
-\lst@framebox=\box68
+\c@lstnumber=\count356
+\lst@skipnumbers=\count357
+\lst@framebox=\box73
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2023/02/27 1.9 listings configuration
@@ -811,7 +830,7 @@ Package: listings 2023/02/27 1.9 (Carsten Heinz)
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/helvet.sty
 Package: helvet 2020/03/25 PSNFSS-v9.3 (WaS) 
 )
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 33
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 35
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
@@ -819,43 +838,43 @@ File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count353
-\l__pdf_internal_box=\box69
+\l__color_backend_stack_int=\count358
+\l__pdf_internal_box=\box74
 )
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count354
-\scratchdimen=\dimen303
-\scratchbox=\box70
-\nofMPsegments=\count355
-\nofMParguments=\count356
-\everyMPshowfont=\toks44
-\MPscratchCnt=\count357
-\MPscratchDim=\dimen304
-\MPnumerator=\count358
-\makeMPintoPDFobject=\count359
-\everyMPtoPDFconversion=\toks45
+\scratchcounter=\count359
+\scratchdimen=\dimen304
+\scratchbox=\box75
+\nofMPsegments=\count360
+\nofMParguments=\count361
+\everyMPshowfont=\toks45
+\MPscratchCnt=\count362
+\MPscratchDim=\dimen305
+\MPnumerator=\count363
+\makeMPintoPDFobject=\count364
+\everyMPtoPDFconversion=\toks46
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -865,7 +884,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring ON on input line 33.
+Package hyperref Info: Link coloring ON on input line 35.
 
 (./main.out) (./main.out)
 \@outlinefile=\write4
@@ -874,9 +893,14 @@ Package hyperref Info: Link coloring ON on input line 33.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
+Package caption Info: longtable package is loaded.
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)
 Package caption Info: End \AtBeginDocument code.
-\c@mv@tabular=\count360
-\c@mv@boldtabular=\count361
+\c@mv@tabular=\count365
+\c@mv@boldtabular=\count366
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -912,7 +936,7 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count362
+\c@lstlisting=\count367
 (./titlepage.tex
 LaTeX Font Info:    Trying to load font information for T1+RobotoSlab-TLF on in
 put line 2.
@@ -923,7 +947,7 @@ lab-TLF.
 )
 LaTeX Font Info:    Font shape `T1/RobotoSlab-TLF/m/n' aliased to
 (Font)              `T1/RobotoSlab-TLF/regular/n' on input line 2.
-<images/Logo_C_Positivo_Colore.png, id=7, 1702.36pt x 632.3625pt>
+<images/Logo_C_Positivo_Colore.png, id=11, 1702.36pt x 632.3625pt>
 File: images/Logo_C_Positivo_Colore.png Graphic file (type png)
 <use images/Logo_C_Positivo_Colore.png>
 Package pdftex.def Info: images/Logo_C_Positivo_Colore.png  used on input line 
@@ -938,8 +962,8 @@ LaTeX Font Info:    Font shape `T1/RobotoSlab-TLF/m/n' aliased to
 LaTeX Font Info:    Font shape `T1/RobotoSlab-TLF/b/n' aliased to
 (Font)              `T1/RobotoSlab-TLF/bold/n' on input line 43.
 </home/stecanovi/workspace/Progetto_BD/Basi-di-Dati-2024-2025-Canovi-Frattolill
-o/TU Delft Assignment Template/images/SOSTENIBILITA.png, id=9, 130.4875pt x 130
-.4875pt>
+o/TU Delft Assignment Template/images/SOSTENIBILITA.png, id=13, 130.4875pt x 13
+0.4875pt>
 File: /home/stecanovi/workspace/Progetto_BD/Basi-di-Dati-2024-2025-Canovi-Fratt
 olillo/TU Delft Assignment Template/images/SOSTENIBILITA.png Graphic file (type
  png)
@@ -963,70 +987,105 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.39 \newpage
+l.41 \newpage
               [1{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}]
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 53.
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 7
+2.
 
-Package natbib Warning: Citation `HussFarinotti2014' on page 2 undefined on inp
-ut line 43.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd
+File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
+) [2]
+Underfull \hbox (badness 5711) in paragraph at lines 140--140
+[]|\T1/phv/m/n/10 Utente iden-ti-fi-cato da codice fis-cale,
+ []
 
 
-LaTeX Warning: Reference `fig:random line' on page 2 undefined on input line 43
-.
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
+[]|\T1/phv/m/n/10 Idea, Feed-back,
+ []
 
-<images/Sample graph.png, id=23, 436.63126pt x 341.47575pt>
-File: images/Sample graph.png Graphic file (type png)
-<use images/Sample graph.png>
-Package pdftex.def Info: images/Sample graph.png  used on input line 47.
-(pdftex.def)             Requested size: 290.22107pt x 226.9743pt.
 
-LaTeX Warning: Reference `eq:1' on page 2 undefined on input line 55.
+Underfull \hbox (badness 10000) in paragraph at lines 143--143
+[]|\T1/phv/m/n/10 Proposta, In-
+ []
 
-[2 <./images/Sample graph.png>]
-No file main.bbl.
 
-Package natbib Warning: There were undefined citations.
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
+[]|\T1/phv/m/n/10 Cittadino, Feed-
+ []
 
-[3] (./main.aux)
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--147
+[]|\T1/phv/m/n/10 Cittadino, Idea,
+ []
+
+
+Underfull \hbox (badness 1418) in paragraph at lines 149--149
+[]|\T1/phv/m/n/10 Prodotto fi-nale,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--150
+[]|\T1/phv/m/n/10 Progetto, Feed-
+ []
+
+
+Underfull \hbox (badness 1910) in paragraph at lines 152--152
+[]|\T1/phv/m/n/10 Manifestazione pub-blica dove ven-gono
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--152
+[]|\T1/phv/m/n/10 Presentazione,
+ []
+
+
+Underfull \hbox (badness 2005) in paragraph at lines 155--155
+[]|\T1/phv/m/n/10 Tema, Cat-e-go-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
+[]|\T1/phv/m/n/10 Bacheca dig-i-
+ []
+
+<images/SCHELETRO_CITTADINO.drawio.png, id=35, 613.29124pt x 462.72874pt>
+File: images/SCHELETRO_CITTADINO.drawio.png Graphic file (type png)
+<use images/SCHELETRO_CITTADINO.drawio.png>
+Package pdftex.def Info: images/SCHELETRO_CITTADINO.drawio.png  used on input l
+ine 175.
+(pdftex.def)             Requested size: 386.95897pt x 291.9584pt.
+[3 <./images/SCHELETRO_CITTADINO.drawio.png>] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  F7CA28AFBDD9AC80D74A9DCA783998EA;688.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 7946356DC7CBDB3B1118DA08754D1285;292.
  ) 
 Here is how much of TeX's memory you used:
- 26362 strings out of 476182
- 484323 string characters out of 5795595
- 1927975 words of memory out of 5000000
- 47914 multiletter control sequences out of 15000+600000
- 597694 words of font info for 56 fonts, out of 8000000 for 9000
+ 26548 strings out of 476182
+ 487385 string characters out of 5795595
+ 1939975 words of memory out of 5000000
+ 48091 multiletter control sequences out of 15000+600000
+ 601023 words of font info for 59 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  99i,7n,117p,498b,500s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/google/roboto/RobotoSlab-Bold.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/google/roboto/RobotoSlab-Regular.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/urw/helvetic/uhvr8a.pfb>
-Output written on main.pdf (4 pages, 288185 bytes).
+></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on main.pdf (4 pages, 233325 bytes).
 PDF statistics:
- 87 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
- 13 named destinations out of 1000 (max. 500000)
- 28 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 74 PDF objects out of 1000 (max. 8388607)
+ 52 compressed objects within 1 object stream
+ 11 named destinations out of 1000 (max. 500000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
