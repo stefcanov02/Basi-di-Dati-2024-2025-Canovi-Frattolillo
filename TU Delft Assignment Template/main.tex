@@ -40,10 +40,9 @@
 \tableofcontents
 \newpage
 
-%---------------------PAGINA DI DESCRIZIONE DEL DB E ANALISI PRIMA CLASSE DI UTENTE-------------------
+%--------------------- INTRODUZIONE (SOLO TITOLO VISIVO) -------------------
 
-\section*{1.Analisi dei requisiti e progetto delle viste}
-\addcontentsline{toc}{section}{1.Analisi dei requisiti e progetto delle viste}
+\section*{Introduzione}
 \raggedright
 
 \vspace{-0.5cm}
@@ -74,108 +73,151 @@ Il sistema coinvolge molteplici attori, sia pubblici che privati, i quali intera
     \item \textbf{Enti pubblici}
 \end{itemize}
 
-\titleformat{\subsection}[block]
-  {\normalfont\bfseries\Large}
-  {}
-  {0pt}
-  {}
+%--------------------- DEFINIZIONE REQUISITI -------------------
 
-\vspace{0.3cm}
-\subsection*{1.1Formulazione e analisi dei requisiti per i Cittadini}
-\vspace{0.6cm}
+\section{Definizione dei requisiti}
 
-I \textbf{cittadini}, identificati tramite \textit{codice fiscale}, \textit{nome}, \textit{cognome} e \textit{residenza}, rappresentano una componente fondamentale all'interno di questa realtà urbana sostenibile.
+%--------------------- DEFINIZIONE REQUISITI PER CITTADINI -------------------
+
+\subsection{Definizione dei requisiti per i Cittadini}
+
+I \textbf{cittadini}, identificati tramite \textit{codice fiscale}, \textit{nome}, \textit{cognome} e \textit{residenza}, sono al centro di questo sistema urbano sostenibile. Essi hanno la possibilità di proporre idee innovative, che rappresentano il primo passo verso la creazione di nuovi prodotti e servizi orientati alla sostenibilità. Le idee vengono inserite in un apposito albo cittadino digitale, dove ogni proposta è associata a un \textit{titolo}, una \textit{descrizione} e una \textit{data di inserimento}.
 
 \par\vspace{0.3cm}
 
-Essi hanno la possibilità di contribuire attivamente alla crescita della città attraverso la pubblicazione delle proprie idee all'interno di un apposito albo cittadino digitale, distinguendosi così dagli altri utenti come ideatori di potenziali prodotti o servizi orientati alla sostenibilità.
+Le idee possono riguardare diversi settori, dai \textit{beni tecnologici} ai \textit{servizi ambientali}, e ogni settore rappresenta una tematica di interesse per la città. Una volta proposte, le idee vengono valutate dalla comunità,in questo modo è possibile osservare quanto un'idea abbia avuto successo tra gli utenti, e quanto questa idea effettivamente abbia un impatto sostenibile.
 
 \par\vspace{0.3cm}
 
-Ogni idea proposta è associata a un titolo, una descrizione e una data di inserimento, e può riguardare vari ambiti.
+Il progetto è il risultato concreto dell’idea iniziale. Ogni progetto punta a realizzare soluzioni innovative che rispondano ai bisogni della comunità, contribuendo al benessere collettivo e al miglioramento della città.
 
 \par\vspace{0.3cm}
 
-Oltre alla proposta di idee, i cittadini possono rilasciare feedback, uno strumento essenziale per valutare il grado di apprezzamento da parte della comunità e per misurare l'effettivo impatto e progresso delle iniziative, sia in termini di affluenza che di sostenibilità.
+I cittadini nel sistema, quando propongono o forniscono idee, diventano soggetti attivi nello sviluppo e nell'innovazione della città. Questi cittadini si differenziano da quelli che si limitano a osservare il processo, assumendo un ruolo propositivo e determinante nella creazione di nuove soluzioni sostenibili. Tuttavia, sia i cittadini attivi che quelli che osservano possono contribuire al miglioramento del sistema attraverso i  feedback, che possono essere espressi sia sull'idea iniziale che sul prodotto finale.
 
 \par\vspace{0.3cm}
 
-I feedback possono essere espressi sia sull'idea iniziale che sul prodotto finale, ovvero sul risultato concreto del processo di definizione, applicazione e realizzazione del progetto basato sull'idea stessa.
+Nel corso di questo processo, si raccoglie una varietà di contributi sulla qualità e sull’efficacia delle soluzioni adottate. Questo scambio permette di misurare l’evoluzione delle iniziative e di accertare se i risultati raggiunti siano coerenti con le aspettative iniziali e con gli obiettivi di sostenibilità fissati, offrendo così spunti per eventuali raffinamenti successivi.
 
 \par\vspace{0.3cm}
 
-Questa doppia valutazione risulta utile per analizzare la coerenza tra l'idea e la sua effettiva attuazione, e per comprendere se il prodotto ha mantenuto o superato le aspettative iniziali.
+I nuovi prodotti sostenibili vengono poi presentati alla comunità durante eventi pubblici strutturati in settori tematici, così che ogni cittadino possa facilmente orientarsi verso le aree di proprio interesse. Questi eventi offrono una prima esposizione delle soluzioni sviluppate, favorendo il dialogo e la partecipazione di tutta la comunità.
 
-\par\vspace{0.3cm}
-
-I nuovi prodotti sostenibili vengono infine presentati alla comunità attraverso eventi pubblici, manifestazioni organizzate con l'obiettivo di offrire una prima esposizione delle soluzioni sviluppate.
-
-\par\vspace{0.3cm}
-
-Gli eventi sono strutturati in settori tematici, permettendo a ogni cittadino di orientarsi facilmente verso le aree di proprio interesse.
-
-%-------------------------------------------------------------------------------------------------------
+%--------------------- DEFINIZIONE REQUISITI PER AZIENDE PRIVATE -------------------
 
 \newpage
-\titleformat{\subsection}[block]
-  {\normalfont\bfseries\Large}
-  {}
-  {0pt}
-  {}
+\subsection{Definizione dei requisiti per le Aziende Private}
 
-\vspace{-1.3cm}
-\subsection*{Glossario dei concetti per i cittadini}
-\vspace{0.6cm}
+L’\textbf{azienda privata}, identificata da attributi come \textit{Partita IVA}, \textit{ragione sociale} e \textit{settore di attività}, rappresenta un altro attore fondamentale all’interno di questo sistema urbano sostenibile.
+
+\par\vspace{0.3cm}
+
+Come nelle città tradizionali, anche in questo contesto l'azienda ha il compito di produrre beni e offrire servizi alla comunità. Tuttavia, la peculiarità di questo sistema è che le aziende possono creare un progetto solo se in possesso di una \textit{certificazione sostenibile}.
+
+\par\vspace{0.3cm}
+
+Tale certificato, rilasciato dalla \textit{pubblica amministrazione}, attesta la coerenza dell’iniziativa con i principi di innovazione e sostenibilità urbana. Solo le aziende certificate possono dunque avviare un progetto, il quale ha come obiettivo la realizzazione concreta di un prodotto o servizio da offrire alla comunità.
+
+\par\vspace{0.3cm}
+
+Le aziende hanno inoltre la possibilità di collaborare tramite \textit{partnership} con altre imprese per sviluppare soluzioni più funzionali, integrate e strutturate, capaci di rispondere in modo più efficace ai bisogni collettivi.
+
+\par\vspace{0.3cm}
+
+Come per i cittadini, anche le aziende operano all’interno della città, intesa sia come spazio fisico sia come organizzazione sociale. I prodotti o servizi realizzati saranno dunque messi a disposizione della collettività, contribuendo allo sviluppo sostenibile dell’intero sistema urbano.
+
+%--------------------- DEFINIZIONE REQUISITI PER ENTE PUBBLICO -------------------
+
+
+
+%--------------------- ANALISI REQUISITI E SCHEMA SCHELETRO -------------------
+
+\newpage
+\section{Analisi requisiti e schema scheletro}
+
+%--------------------- ANALISI REQUISITI E SCHEMA SCHELETRO PER I CITTADINI -------------------
+
+\subsection{Analisi requisiti e schema scheletro per i Cittadini}
+
+\begin{longtable}{|p{3cm}|p{6.5cm}|p{2.5cm}|p{3cm}|}
+
+\hline
+\textbf{Termine} & \textbf{Descrizione} & \textbf{Sinonimi} & \textbf{Collegamenti} \\
+\hline
+\endfirsthead
+
+\hline
+\textbf{Termine} & \textbf{Descrizione} & \textbf{Sinonimi} & \textbf{Collegamenti} \\
+\hline
+\endhead
+
+Cittadino & Utente identificato da codice fiscale, nome, cognome e residenza, che può proporre idee e esprimere il proprio punto di vista. & Utente & Idea \\
+\hline
+
+Idea & Proposta inserita da un cittadino, associata a titolo, descrizione e data. Può riguardare vari ambiti sostenibili. & Proposta, Iniziativa & Cittadino, Progetto \\
+\hline
+
+Progetto & Iniziativa concreta derivata da un'idea selezionata, finalizzata alla realizzazione di un prodotto o servizio sostenibile. & Prototipo, Soluzione & Prodotto, Idea \\
+\hline
+
+Settore Tematico & Area tematica in cui sono suddivisi gli eventi, per facilitare la fruizione da parte dei cittadini. & Tema, Categoria & Idea \\
+\hline
+
+Città &  Ambiente dove i cittadini vivono,creano relazioni,lavoro e svolgono tutto quello di cui hanno bisogno & Luogo di Residenza & Cittadino \\
+\hline
+
+\caption{Glossario dei concetti relativi ai cittadini}
+\label{tab:glossario-cittadini}
+\\
+\end{longtable}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/SCHELETRO_CITTADINO.drawio.png}
+    \caption{Schema scheletro per i cittadini}
+    \label{fig:schema-sostenibilita}
+\end{figure}
+
+%--------------------------------ANALISI REQUISITI E SCHEMA SCHELETRO AZIENDA PRIVATA -----------------------------------------------
+
+\newpage
+\subsection{Analisi requisiti e schema scheletro per le Aziende Private}
 
 \begin{longtable}{|p{3cm}|p{6.5cm}|p{2.5cm}|p{3cm}|}
 \hline
 \textbf{Termine} & \textbf{Descrizione} & \textbf{Sinonimi} & \textbf{Collegamenti} \\
 \hline
 \endfirsthead
+
 \hline
 \textbf{Termine} & \textbf{Descrizione} & \textbf{Sinonimi} & \textbf{Collegamenti} \\
 \hline
 \endhead
 
-Cittadino & Utente identificato da codice fiscale, nome, cognome e residenza, che può proporre idee e lasciare feedback. & Utente & Idea, Feedback, Evento \\
+Azienda privata & Attore identificato da attributi come Partita IVA, ragione sociale e settore di attività. Ha il compito di produrre beni e servizi per la comunità. & Impresa, Organizzazione economica & Progetto, Città \\
 \hline
 
-Idea & Proposta inserita da un cittadino, associata a titolo, descrizione e data. Può riguardare vari ambiti sostenibili. & Proposta, Iniziativa & Cittadino, Feedback, Progetto \\
+Progetto & Iniziativa che può essere avviata da un’azienda solo se in possesso della certificazione sostenibile. Mira alla creazione di un prodotto o servizio. & Iniziativa, Piano & Azienda \\
 \hline
 
-Feedback & Valutazione lasciata da un cittadino su un'idea o su un prodotto finale, utile per misurare apprezzamento e impatto. & Opinione, Commento & Cittadino, Idea, Prodotto \\
+Certificazione sostenibile & Documento rilasciato dalla pubblica amministrazione che attesta la coerenza del progetto aziendale con i principi di innovazione e sostenibilità. & Certificato, Attestazione & Azienda \\
 \hline
 
-Prodotto & Risultato concreto derivante da un progetto di un' idea. Oggetto della valutazione finale tramite feedback. & Prodotto finale, Soluzione & Progetto, Feedback, Evento \\
+Città & Contesto urbano inteso sia come spazio fisico sia come organizzazione sociale, destinatario dei prodotti e servizi aziendali. & Sistema urbano, Comunità & Azienda \\
 \hline
 
-Evento & Manifestazione pubblica dove vengono presentati i prodotti sostenibili alla comunità. & Presentazione, Manifestazione & Cittadino, Prodotto, Settore Tematico \\
-\hline
-
-Settore Tematico & Area tematica in cui sono suddivisi gli eventi, per facilitare la fruizione da parte dei cittadini. & Tema, Categoria & Evento, Idea\\
-\hline
-
-Albo cittadino digitale & Spazio online in cui i cittadini possono pubblicare idee sostenibili. & Bacheca digitale & Cittadino, Idea \\
-\hline
-
+\caption{Glossario dei concetti relativi alle aziende nel sistema urbano sostenibile}
+\label{tab:glossario-aziende}
 \end{longtable}
-
-\titleformat{\subsection}[block]
-  {\normalfont\bfseries\Large}
-  {}
-  {0pt}
-  {}
-
-\vspace{0.3cm}
-\subsection*{Schema scheletro per i Cittadini}
-\vspace{0.6cm}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{images/SCHELETRO_CITTADINO.drawio.png}
-    \caption{Schema del modello di sostenibilità urbana}
+    \includegraphics[width=10cm]{images/SCHEMA_SCHELETRO_AZIENDA.drawio.png}
+    \caption{Schema scheletro per le aziende private}
     \label{fig:schema-sostenibilita}
 \end{figure}
+
+%--------------------------------ANALISI REQUISITI E SCHEMA SCHELETRO AZIENDA PRIVATA -----------------------------------------------
 
 \end{document}
 
