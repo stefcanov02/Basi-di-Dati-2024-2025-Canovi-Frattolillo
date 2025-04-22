@@ -128,7 +128,23 @@ Come per i cittadini, anche le aziende operano all’interno della città, intes
 
 %--------------------- DEFINIZIONE REQUISITI PER ENTE PUBBLICO -------------------
 
+\subsection{Definizione dei requisiti per Ente pubblico}
 
+Gli \textbf{enti pubblici}, identificati tramite \textit{codice univoco}, il \textit{settore di appartenenza (istruzione, salute, ecc...) }, e la relativa \textit{residenza}, sono un altro fulcro del database. Gli enti si identificano in due tipi differenti: \textit{Produttore} e \textit{Regolamentatore} e ognuno ha compiti specifici e diversi. 
+
+\par\vspace{0.3cm}
+
+L'Ente Pubblico \textit{Produttore}, come l'azienda privata, può produrre un progetto per trasformarlo in un prodotto, a differenza però che essendo un ente pubblico, e avendo a disposizione tutti i mezzi necessari, non deve disporre dei certificati come accadeva per l'azienda privata.
+
+\par\vspace{0.3cm}
+
+L'Ente Pubblico \textit{Regolamentatore}, invece, rappresenta la \textit{Pubblica amministrazione} , per cui non può produrre alcun progetto, ma ha la funzione prinicipale di emettere i \textit{Certificati}, i certificati sono documenti che vengono associati a un progetto per attestarne tutte le risorse di cui necessita per essere realizzato, se un azienda privata decide di voler realizzare un progetto allora questa dovrà disporre di tutte i certificati richiesti.
+
+\par\vspace{0.3cm}
+
+Anche gli enti pubblici risiedono e operano all'interno della propria città, quindi tutti i progetti sviluppati dagli enti produttori saranno legati al miglioramento della città di appartenenza.
+
+\par\vspace{0.3cm}
 
 %--------------------- ANALISI REQUISITI E SCHEMA SCHELETRO -------------------
 
@@ -217,7 +233,47 @@ Città & Contesto urbano inteso sia come spazio fisico sia come organizzazione s
     \label{fig:schema-sostenibilita}
 \end{figure}
 
-%--------------------------------ANALISI REQUISITI E SCHEMA SCHELETRO AZIENDA PRIVATA -----------------------------------------------
+%--------------------------------ANALISI REQUISITI E SCHEMA SCHELETRO ENTE PUBBLICO -----------------------------------------------
+
+\newpage
+\subsection{Analisi requisiti e schema scheletro per gli Enti pubblici}
+
+\begin{longtable}{|p{3cm}|p{6.5cm}|p{2.5cm}|p{3cm}|}
+\hline
+\textbf{Termine} & \textbf{Descrizione} & \textbf{Sinonimi} & \textbf{Collegamenti} \\
+\hline
+\endfirsthead
+
+\hline
+\textbf{Termine} & \textbf{Descrizione} & \textbf{Sinonimi} & \textbf{Collegamenti} \\
+\hline
+\endhead
+
+Ente Regolatore & Attore identificato da codice univoco, settore di attività e residenza. Ha il compito di emettere certificati per i progetti. & Pubblica amministrazione & Città, Certificato \\
+\hline
+
+Certificato & Documento che rappresenta le competenze per produrre uno specifico progetto  & Attestato, documento & Ente Regolatore, Progetto \\
+\hline
+
+Ente Produttore & Attore identificato da codice univoco, settore di attività e residenza. Ha il compito di produrre i progetti per il miglioramento della propria città. & Impresa pubblica & Città, Progetto \\
+\hline
+
+Progetto & Iniziativa concreta derivata da un’idea selezionata, finalizzata alla realizzazione di un prodotto o servizio sostenibile. & Proposta, Iniziativa & Ente Produttore, Certificato \\
+\hline
+
+Città & Contesto urbano inteso sia come spazio fisico sia come organizzazione sociale, destinatario dei prodotti e servizi aziendali. & Sistema urbano, Comunità & Ente Regolamentatore, Ente Produttore \\
+\hline
+
+\caption{Glossario dei concetti relativi agli enti pubblici nel sistema urbano sostenibile}
+\label{tab:glossario-enti}
+\end{longtable}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=10cm]{images/SchemaScheletroEnte.drawio}
+    \caption{Schema scheletro per gli enti pubblici}
+    \label{fig:schema-sostenibilita}
+\end{figure}
 
 \end{document}
 
