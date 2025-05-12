@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.4.16)  12 MAY 2025 21:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.4.16)  13 MAY 2025 01:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -841,17 +841,7 @@ File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count358
 \l__pdf_internal_box=\box74
 )
-(./main.aux
-
-LaTeX Warning: Label `fig:schema-sostenibilita' multiply defined.
-
-
-LaTeX Warning: Label `fig:schema-sostenibilita' multiply defined.
-
-
-LaTeX Warning: Label `fig:schema-sostenibilita' multiply defined.
-
-)
+(./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
@@ -957,7 +947,7 @@ lab-TLF.
 )
 LaTeX Font Info:    Font shape `T1/RobotoSlab-TLF/m/n' aliased to
 (Font)              `T1/RobotoSlab-TLF/regular/n' on input line 2.
-<images/Logo_C_Positivo_Colore.png, id=51, 1702.36pt x 632.3625pt>
+<images/Logo_C_Positivo_Colore.png, id=71, 1702.36pt x 632.3625pt>
 File: images/Logo_C_Positivo_Colore.png Graphic file (type png)
 <use images/Logo_C_Positivo_Colore.png>
 Package pdftex.def Info: images/Logo_C_Positivo_Colore.png  used on input line 
@@ -971,7 +961,7 @@ LaTeX Font Info:    Font shape `T1/RobotoSlab-TLF/m/n' aliased to
 (Font)              `T1/RobotoSlab-TLF/regular/n' on input line 44.
 LaTeX Font Info:    Font shape `T1/RobotoSlab-TLF/b/n' aliased to
 (Font)              `T1/RobotoSlab-TLF/bold/n' on input line 44.
-<images/SOSTENIBILITA.png, id=53, 130.4875pt x 130.4875pt>
+<images/SOSTENIBILITA.png, id=73, 130.4875pt x 130.4875pt>
 File: images/SOSTENIBILITA.png Graphic file (type png)
 <use images/SOSTENIBILITA.png>
 Package pdftex.def Info: images/SOSTENIBILITA.png  used on input line 52.
@@ -1018,7 +1008,7 @@ Underfull \hbox (badness 2005) in paragraph at lines 179--179
 []|\T1/phv/m/n/10 Tema, Cat-e-go-
  []
 
-<images/SCHELETRO_CITTADINO.drawio.png, id=89, 613.29124pt x 462.72874pt>
+<images/SCHELETRO_CITTADINO.drawio.png, id=114, 613.29124pt x 462.72874pt>
 File: images/SCHELETRO_CITTADINO.drawio.png Graphic file (type png)
 <use images/SCHELETRO_CITTADINO.drawio.png>
 Package pdftex.def Info: images/SCHELETRO_CITTADINO.drawio.png  used on input l
@@ -1049,7 +1039,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 222--222
 []|\T1/phv/m/n/10 Sistema ur-
  []
 
-<images/SCHEMA_SCHELETRO_AZIENDA.drawio.png, id=97, 442.65375pt x 312.16624pt>
+<images/SCHEMA_SCHELETRO_AZIENDA.drawio.png, id=122, 442.65375pt x 312.16624pt>
+
 File: images/SCHEMA_SCHELETRO_AZIENDA.drawio.png Graphic file (type png)
 <use images/SCHEMA_SCHELETRO_AZIENDA.drawio.png>
 Package pdftex.def Info: images/SCHEMA_SCHELETRO_AZIENDA.drawio.png  used on in
@@ -1095,14 +1086,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 264--265
 \T1/phv/m/n/10 men-ta-tore, Ente
  []
 
-<images/SchemaScheletroEnte.drawio.png, id=105, 683.55376pt x 442.65375pt>
+<images/SchemaScheletroEnte.drawio.png, id=130, 683.55376pt x 442.65375pt>
 File: images/SchemaScheletroEnte.drawio.png Graphic file (type png)
 <use images/SchemaScheletroEnte.drawio.png>
 Package pdftex.def Info: images/SchemaScheletroEnte.drawio.png  used on input l
 ine 273.
 (pdftex.def)             Requested size: 426.79134pt x 276.38773pt.
 [6 <./images/SchemaScheletroEnte.drawio.png>]
-<images/CITTADINI_COMPLETO.drawio.png, id=114, 1611.01875pt x 841.64438pt>
+<images/CITTADINI_COMPLETO.drawio.png, id=139, 1611.01875pt x 841.64438pt>
 File: images/CITTADINI_COMPLETO.drawio.png Graphic file (type png)
 <use images/CITTADINI_COMPLETO.drawio.png>
 Package pdftex.def Info: images/CITTADINI_COMPLETO.drawio.png  used on input li
@@ -1113,35 +1104,222 @@ Overfull \hbox (22.03679pt too wide) in paragraph at lines 315--317
 []  [] 
  []
 
-[7 <./images/CITTADINI_COMPLETO.drawio.png>] (./main.aux)
+[7 <./images/CITTADINI_COMPLETO.drawio.png>]
+<images/AZIENDA_PRIVATA_COMPLETO.drawio.png, id=151, 647.41875pt x 448.67625pt>
+
+File: images/AZIENDA_PRIVATA_COMPLETO.drawio.png Graphic file (type png)
+<use images/AZIENDA_PRIVATA_COMPLETO.drawio.png>
+Package pdftex.def Info: images/AZIENDA_PRIVATA_COMPLETO.drawio.png  used on in
+put line 342.
+(pdftex.def)             Requested size: 389.80266pt x 270.14575pt.
+ [8 <./images/AZIENDA_PRIVATA_COMPLETO.drawio.png>]
+Underfull \hbox (badness 6758) in paragraph at lines 358--358
+[]\T1/phv/m/n/10 Utente is-critto alla pi-
+ []
+
+
+Underfull \hbox (badness 4454) in paragraph at lines 364--364
+[]\T1/phv/m/n/10 Ambito tem-atico di un
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--367
+[]\T1/phv/m/n/10 ID evento, Data
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--367
+\T1/phv/m/n/10 evento, Titolo
+ []
+
+
+Underfull \hbox (badness 4713) in paragraph at lines 368--369
+[]\T1/phv/m/n/10 Titolo evento, ID
+ []
+
+
+Underfull \hbox (badness 3460) in paragraph at lines 370--370
+[]\T1/phv/m/n/10 Spazio in cui ven-gono
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 370--371
+[]\T1/phv/m/n/10 ID bacheca, ID
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 374--374
+[]\T1/phv/m/n/10 Progetto derivato da
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 380--380
+[]\T1/phv/m/n/10 Documento ri-las-ci-ato
+ []
+
+
+Underfull \hbox (badness 2443) in paragraph at lines 380--380
+\T1/phv/m/n/10 dalla pub-blica am-min-is-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 380--381
+[]\T1/phv/m/n/10 Nome cer-ti-fi-cato,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 382--383
+[]\T1/phv/m/n/10 Partita IVA, Rag
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 386--386
+[]\T1/phv/m/n/10 Prodotto re-al-iz-zato da
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 388--388
+[]\T1/phv/m/n/10 Progetto avvi-ato da
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 390--390
+[]\T1/phv/m/n/10 Collaborazione tra
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 390--390
+\T1/phv/m/n/10 aziende per un pro-
+ []
+
+
+Overfull \hbox (24.1781pt too wide) in paragraph at lines 354--395
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 405--405
+\T1/phv/m/n/10 parte-ci-pazione per un
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 407--407
+[]\T1/phv/m/n/10 EVENTO (1,N), PARTE-CI-PAZIONE
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 411--411
+[]\T1/phv/m/n/10 Rappresenta un cit-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 411--412
+[]\T1/phv/m/n/10 data_inserimento,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 413--413
+[]\T1/phv/m/n/10 Collega un pro-getto
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 419--419
+[]\T1/phv/m/n/10 Associa va-l-u-tazione al
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 423--423
+[]\T1/phv/m/n/10 Collega set-tore con
+ []
+
+
+Underfull \hbox (badness 2384) in paragraph at lines 431--431
+[]\T1/phv/m/n/10 L'azienda opera in una
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 433--433
+[]\T1/phv/m/n/10 L'azienda adotta un
+ []
+
+
+Underfull \hbox (badness 3657) in paragraph at lines 433--434
+[]\T1/phv/m/n/10 Data in-izio, Data
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 437--437
+[]\T1/phv/m/n/10 PARTNERSHIP (1,N), PRO-GETTO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 439--439
+[]\T1/phv/m/n/10 Associa una part-ner-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 439--439
+\T1/phv/m/n/10 ship ad una col-lab-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 439--439
+\T1/phv/m/n/10 o-razione(metodo per
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 439--439
+[]\T1/phv/m/n/10 PARTNERSHIP (1,N), COL-LAB-O-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 441--441
+[]\T1/phv/m/n/10 Associa un'azienda
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 441--441
+\T1/phv/m/n/10 ad una col-lab-o-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 441--441
+\T1/phv/m/n/10 razione(metodo per
+ []
+
+
+Overfull \hbox (13.25839pt too wide) in paragraph at lines 401--443
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[9] [10] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 9F2F2FAE0674AF201BC932E1962EE2B5;3030.
+(rerunfilecheck)             Checksum: 06ED3789832DFC7D5C1AB7C60997898B;4168.
  ) 
 Here is how much of TeX's memory you used:
- 26615 strings out of 476182
- 488332 string characters out of 5795595
- 1936975 words of memory out of 5000000
- 48136 multiletter control sequences out of 15000+600000
+ 26651 strings out of 476182
+ 489127 string characters out of 5795595
+ 1957975 words of memory out of 5000000
+ 48154 multiletter control sequences out of 15000+600000
  601023 words of font info for 59 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 99i,9n,117p,560b,500s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,10n,117p,560b,500s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/google/roboto/RobotoSlab-Bold.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/google/roboto/RobotoSlab-Regular.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on main.pdf (8 pages, 339423 bytes).
+Output written on main.pdf (11 pages, 377453 bytes).
 PDF statistics:
- 161 PDF objects out of 1000 (max. 8388607)
- 128 compressed objects within 2 object streams
- 33 named destinations out of 1000 (max. 500000)
- 131 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 215 PDF objects out of 1000 (max. 8388607)
+ 177 compressed objects within 2 object streams
+ 51 named destinations out of 1000 (max. 500000)
+ 176 words of extra memory for PDF output out of 10000 (max. 10000000)
 

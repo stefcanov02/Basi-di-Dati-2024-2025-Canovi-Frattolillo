@@ -191,7 +191,7 @@ Città &  Ambiente dove i cittadini vivono,creano relazioni,lavoro e svolgono tu
     \centering
     \includegraphics[width=0.8\textwidth]{images/SCHELETRO_CITTADINO.drawio.png}
     \caption{Schema scheletro per i cittadini}
-    \label{fig:schema-sostenibilita}
+    \label{fig:schema-sostenibilita1}
 \end{figure}
 
 %--------------------------------ANALISI REQUISITI E SCHEMA SCHELETRO AZIENDA PRIVATA -----------------------------------------------
@@ -230,7 +230,7 @@ Città & Contesto urbano inteso sia come spazio fisico sia come organizzazione s
     \centering
     \includegraphics[width=10cm]{images/SCHEMA_SCHELETRO_AZIENDA.drawio.png}
     \caption{Schema scheletro per le aziende private}
-    \label{fig:schema-sostenibilita}
+    \label{fig:schema-sostenibilita2}
 \end{figure}
 
 %--------------------------------ANALISI REQUISITI E SCHEMA SCHELETRO ENTE PUBBLICO -----------------------------------------------
@@ -272,7 +272,7 @@ Città & Contesto urbano inteso sia come spazio fisico sia come organizzazione s
     \centering
     \includegraphics[width=15cm]{images/SchemaScheletroEnte.drawio}
     \caption{Schema scheletro per gli enti pubblici}
-    \label{fig:schema-sostenibilita}
+    \label{fig:schema-sostenibilita3}
 \end{figure}
 
 \newpage
@@ -314,10 +314,145 @@ Città & Contesto urbano inteso sia come spazio fisico sia come organizzazione s
         
         \hspace{4cm}
         \includegraphics[width=13.7cm]{images/CITTADINI_COMPLETO.drawio.png}
-        \caption{Schema E-R per i cittadini}
-        \label{fig:schema-sostenibilita}
+        \caption{Schema ER per i cittadini}
+        \label{fig:schema-sostenibilita4}
     \end{figure}
     
+\newpage
+\subsubsection{Schema E-R finale per le Aziende Private}
+\begin{par}
+    Nel passaggio dallo schema scheletro allo schema E-R della vista di \textbf{Aziende private} sono state apportate le seguenti modifiche:
+    \begin{enumerate}
+        \item Come già avvenuto nella vista del cittadino, anche nella vista dell’azienda privata abbiamo raffinato il concetto di \textbf{Progetto},\\
+        che rappresenta il percorso attraverso cui si arriva alla realizzazione dei \textbf{Prodotti}.\\
+        Il progetto è quindi collegato all’entità Prodotto, che comprende i prodotti effettivamente realizzati dall’azienda\\
+        per contribuire alla mobilità sostenibile.
+    
+        \item Abbiamo inoltre raffinato la relazione tra \textbf{Progetto} e \textbf{Azienda}, introducendo la \textbf{Partnership} come elemento di collegamento.\\
+        Le aziende possono collaborare su un progetto facendo parte della stessa partnership, oppure lavorare indipendentemente in partnership distinte.\\
+        Questa raffinazione consente di gestire con precisione le collaborazioni tra aziende all’interno dei progetti.
+
+        \item i prodotti realizzati dalle aziende possono poi essere utilizzat all interno delle città sostenibili in modo da rendere l'ecosistema urbano più efficente \\
+    \end{enumerate}
+    \end{par}
+    
+    \begin{figure}[H]
+        
+        \hspace{2cm}
+        \includegraphics[width=13.7cm]{images/AZIENDA_PRIVATA_COMPLETO.drawio.png}
+        \caption{Schema ER per le aziende private}
+        \label{fig:schema-sostenibilita5}
+    \end{figure}
+
+
+\newpage
+\subsection{Dizionario dei dati}
+ \subsubsection{Dizionario dei dati per le entità}
+
+ \begin{table}[h!]
+    \centering
+    \begin{tabular}{|l|p{4cm}|p{6cm}|p{3cm}|}
+    \hline
+    \textbf{Entità} & \textbf{Descrizione} & \textbf{Attributi} & \textbf{Identificatore} \\
+    \hline
+    CITTADINO & Utente iscritto alla piattaforma & CF, Nome, Cognome & CF \\
+    \hline
+    CITTADINO ATTIVO & Cittadino abilitato a proporre idee & Data attivazione, Numero di proposte & CF \\
+    \hline
+    CITTÀ & Città di residenza del cittadino & Nome, CAP & Nome, CAP \\
+    \hline
+    SETTORE & Ambito tematico di un evento o idea & Categoria, Nome, Descrizione & Categoria, Nome \\
+    \hline
+    PARTECIPAZIONE & Partecipazione di un cittadino ad un evento & Data evento & ID evento, Data evento, Titolo evento \\
+    \hline
+    EVENTO & Iniziativa a cui i cittadini possono partecipare & ID evento, Titolo, Descrizione & Titolo evento, ID evento \\
+    \hline
+    BACHECA & Spazio in cui vengono pubblicati idee o progetti & ID bacheca & ID bacheca, ID prodotto, ID evento, titolo evento \\
+    \hline
+    IDEA & Proposta inserita dal cittadino attivo & ID idea, Descrizione, Data inserimento & ID idea, CF\\
+    \hline
+    PROGETTO & Progetto derivato da un'idea approvata & ID progetto, Titolo, Stato & ID progetto, Titolo \\
+    \hline
+    PRODOTTO & Risultato di un progetto & ID prodotto, Nome, Data creazione & ID prodotto \\
+    \hline
+    FEEDBACK & Opinione rilasciata da un cittadino & ID feedback, Descrizione, Valutazione & ID feedback \\
+    \hline
+    CERTIFICATO & Documento rilasciato dalla pubblica amministrazione & Nome certificato, Tipo certificato, Stato & Nome certificato, Tipo certificato \\
+    \hline
+    AZIENDA & Attore economico privato & Partita IVA, Rag sociale, Num dipendenti, Descrizione & Partita IVA, Rag sociale \\
+    \hline
+    CITTA' & città in cui l'azienda opera & Nome, CAP & Nome, CAP \\
+    \hline
+    PRODOTTO & Prodotto realizzato da un'azienda & ID prodotto, Nome, Data creazione & ID prodotto \\
+    \hline
+    PROGETTO & Progetto avviato da un'azienda & ID progetto, Titolo, Stato & ID progetto, Titolo \\
+    \hline
+    PARTNERSHIP & Collaborazione tra aziende per un progetto & ID partnership, Scopo & ID partnership \\
+    \hline
+    COLLABORA & Entita di passaggio da cui si ottengono informazioni su partnership e aziende & ID prt & ID partnership, ID azienda, ID prt \\
+    \hline
+    \end{tabular}
+    \caption{Dizionario dei dati per le entità}
+\end{table}
+
+\subsubsection{Dizionario dei dati per le relazioni}
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{|l|p{4cm}|p{6cm}|p{3cm}|}
+    \hline
+    \textbf{Relazione} & \textbf{Descrizione} & \textbf{Entità Coinvolte (con cardinalità)} & \textbf{Attributi} \\
+    \hline
+    P-C & Associa un cittadino alla partecipazione per un evento & CITTADINO (1,N), PARTECIPAZIONE (1,1) & - \\
+    \hline
+    E-P & Collega evento e partecipazione & EVENTO (1,N), PARTECIPAZIONE (1,1) & – \\
+    \hline
+    APPARTENENZA & Associa un'idea a un settore & IDEA (1,1), SETTORE (1,N) & – \\
+    \hline
+    FORNISCE & Rappresenta un cittadino attivo che propone un'idea & CITTADINO ATTIVO (1,N), IDEA (1,1) & data\_inserimento, descr \\
+    \hline
+    BASATO SU & Collega un progetto all’idea da cui deriva & PROGETTO (1,1), IDEA (1,1) & – \\
+    \hline
+    COMMENTA & Il cittadino commenta un prodotto con feedback & CITTADINO (1,N), FEEDBACK (1,1) & – \\
+    \hline
+    LASCIA & feedback che viene lasciato dal cittadino & FEEDBACK (1,1), CITTADINO(1,N) & – \\
+    \hline
+    VALUTAZIONE & Associa valutazione al prodotto & FEEDBACK(1,1), PRODOTTO (1,N) & – \\
+    \hline
+    DA ORIGINE & Il progetto genera uno o più prodotti & PROGETTO (1,N), PRODOTTO (1,1) & - \\
+    \hline
+    S-E & Collega settore con evento & SETTORE (1,N), EVENTO (1,1) & – \\
+    \hline
+    OSPITA & L'evento ospita contenuti nella bacheca & EVENTO (1,N), BACHECA(1,1) & – \\
+    \hline
+    ESPONE & La bacheca espone uno o più prodotti & BACHECA (1,1), PRODOTTO (1,N) & – \\
+    \hline
+    POSSIEDE & L'azienda possiede i certificati & AZIENDA (1,N), CERTIFICATO (1,N) & - \\
+    \hline
+    OPERA & L'azienda opera in una determinata zona urbana & AZIENDA (1,1), CITTA' (1,N) & - \\
+    \hline
+    ADOPERA & L'azienda adotta un prodotto & AZIENDA (1,N), PRODOTTO (1,N) & Data inizio, Data fine \\
+    \hline
+    DA-ORIGINE & Il progetto genera uno o più prodotti & PROGETTO (1,N), PRODOTTO (1,1) & - \\
+    \hline
+    REALIZZA & Partnership realizza uno o piu progetti & PARTNERSHIP (1,N), PROGETTO (1,1) & - \\
+    \hline
+    P-C & Associa una partnership ad una collaborazione(metodo per salvare dati sulle collaborazioni) & PARTNERSHIP (1,N), COLLABORAZIONE (1,1) & - \\
+    \hline
+    C-E & Associa un'azienda ad una collaborazione(metodo per salvare dati sulle collaborazioni) & AZIENDA (1,N), COLLABORAZIONE (1,1) & - \\
+    \end{tabular}
+    \caption{Dizionario dei dati per le relazioni}
+\end{table}
+
+\newpage
+\subsection{Vincoli non esprimibili}
+\begin{par}
+    \begin{enumerate}
+        \item Un feedback deve riferirsi a un prodotto o a un idea, ma non a un progetto. \\
+        \item tra i prodotto i servizi non possono essere esposti ad un evento\\ ma solo i sistemi fisici e le applicazioni tecnologiche. \\
+        \item Un cittadino attivo può proporre un'idea mentre un cittadino\\ non puo farlo dovrebbe prima diventare cittadino attivo. \\
+        \item Un'azienda può realizzare un progetto solo se è in possesso di una certificazione sostenibile.\\
+    \end{enumerate}
+    \end{par}
 \end{document}
 
 

@@ -10,3 +10,8 @@
 \contentsline {section}{\numberline {3}Progettazione ed integrazione delle viste}{7}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Schemi E-R finali}{7}{subsection.3.1}%
 \contentsline {subsubsection}{\numberline {3.1.1}Schema E-R finale per i cittadini}{7}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Schema E-R finale per le Aziende Private}{8}{subsubsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.2}Dizionario dei dati}{9}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Dizionario dei dati per le entità}{9}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Dizionario dei dati per le relazioni}{9}{subsubsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.3}Vincoli non esprimibili}{10}{subsection.3.3}%
