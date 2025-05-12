@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.4.16)  12 MAY 2025 20:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.4.16)  12 MAY 2025 21:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1102,12 +1102,12 @@ Package pdftex.def Info: images/SchemaScheletroEnte.drawio.png  used on input l
 ine 273.
 (pdftex.def)             Requested size: 426.79134pt x 276.38773pt.
 [6 <./images/SchemaScheletroEnte.drawio.png>]
-<images/CITTADINI_COMPLETO.drawio.png, id=114, 2148.025pt x 1121.18875pt>
+<images/CITTADINI_COMPLETO.drawio.png, id=114, 1611.01875pt x 841.64438pt>
 File: images/CITTADINI_COMPLETO.drawio.png Graphic file (type png)
 <use images/CITTADINI_COMPLETO.drawio.png>
 Package pdftex.def Info: images/CITTADINI_COMPLETO.drawio.png  used on input li
 ne 316.
-(pdftex.def)             Requested size: 389.80266pt x 203.44763pt.
+(pdftex.def)             Requested size: 389.80266pt x 203.64261pt.
 
 Overfull \hbox (22.03679pt too wide) in paragraph at lines 315--317
 []  [] 
@@ -1138,7 +1138,7 @@ Here is how much of TeX's memory you used:
 ></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on main.pdf (8 pages, 336794 bytes).
+Output written on main.pdf (8 pages, 339423 bytes).
 PDF statistics:
  161 PDF objects out of 1000 (max. 8388607)
  128 compressed objects within 2 object streams
