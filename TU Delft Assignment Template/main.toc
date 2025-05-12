@@ -7,3 +7,6 @@
 \contentsline {subsection}{\numberline {2.1}Analisi requisiti e schema scheletro per i Cittadini}{4}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Analisi requisiti e schema scheletro per le Aziende Private}{5}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Analisi requisiti e schema scheletro per gli Enti pubblici}{6}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Progettazione ed integrazione delle viste}{7}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Schemi E-R finali}{7}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Schema E-R finale per i cittadini}{7}{subsubsection.3.1.1}%

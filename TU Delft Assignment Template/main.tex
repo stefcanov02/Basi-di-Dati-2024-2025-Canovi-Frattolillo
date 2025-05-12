@@ -275,6 +275,49 @@ Città & Contesto urbano inteso sia come spazio fisico sia come organizzazione s
     \label{fig:schema-sostenibilita}
 \end{figure}
 
+\newpage
+\section{Progettazione ed integrazione delle viste}
+
+\subsection{Schemi E-R finali}
+ \subsubsection{Schema E-R finale per i cittadini}
+
+ \begin{par}
+    Nel passaggio dallo schema scheletro allo schema E-R della vista di ’Cittadini’ sono state apportate le seguenti modifiche:
+    \begin{enumerate}
+        \item È stata introdotta l’entità \textbf{Prodotto}, che rappresenta l’implementazione concreta di un Progetto.\\
+        Ogni Prodotto è associato a un solo Progetto, mentre un Progetto può portare allo sviluppo di uno o più Prodotti.\\
+        In questo modo, si rende esplicita la fase realizzativa delle Idee, passando dalla progettazione all’attuazione concreta.
+        
+        \item È stata introdotta l’entità \textbf{Feedback}, fornita dai Cittadini e riferita esclusivamente a un’Idea oppure a un Prodotto,\\
+        ma mai a un Progetto, mediante una relazione alternativa che garantisce l’univocità del riferimento e riflette la partecipazione\\
+        dei cittadini nelle fasi di ideazione o realizzazione.
+        
+        \item L'entità \textbf{Cittadino} è stata raffinata per includere il concetto di cittadino \textbf{Attivo}, che è in grado di proporre nuove idee.\\
+        La relazione tra Cittadino e Idea è stata raffinata, specificando che solo i cittadini Attivi possono proporre nuove idee,\\
+        mentre tutti i cittadini (sia attivi che non) possono fornire feedback.\\
+        Questo riflette la partecipazione attiva degli utenti nella fase di ideazione, mentre entrambi i tipi di cittadini possono contribuire nel processo di feedback.
+        
+        \item L’entità \textbf{Prodotto} è stata specializzata nei sottotipi \textbf{Servizio}, \textbf{Sistema Fisico} e \textbf{Applicazione Tecnologica},\\
+        al fine di rappresentare la diversità delle implementazioni possibili di un Progetto.\\
+        Ciascun sottotipo eredita gli attributi generali di Prodotto e introduce attributi specifici coerenti con la propria natura.\\
+        La generalizzazione è di tipo disgiunto, poiché ogni Prodotto appartiene a uno solo dei sottotipi.
+        
+        \item Per valorizzare e diffondere le soluzioni sviluppate, è stata introdotta l’entità \textbf{Evento} attiva in un determinato \textbf{Settore},\\
+        lo stesso al quale può appartenere un’Idea che da origine ad un Prodotto.\\
+        In particolare, l’evento può ospitare la presentazione di prodotti delle sottoclassi \textbf{Applicazione Tecnologica} e \textbf{Sistema Fisico},\\
+        offrendo visibilità alle soluzioni sviluppate.\\
+        È inoltre collegato ai Cittadini, che vi partecipano come fruitori o osservatori, promuovendo il dialogo tra innovazione sostenibile e comunità.
+    \end{enumerate}
+    \end{par}
+
+    \begin{figure}[H]
+        
+        \hspace{4cm}
+        \includegraphics[width=13.7cm]{images/CITTADINI_COMPLETO.drawio.png}
+        \caption{Schema E-R per i cittadini}
+        \label{fig:schema-sostenibilita}
+    \end{figure}
+    
 \end{document}
 
 
