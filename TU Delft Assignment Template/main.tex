@@ -351,6 +351,7 @@ Città & Contesto urbano inteso sia come spazio fisico sia come organizzazione s
 
  \begin{table}[h!]
     \centering
+    \resizebox{\textwidth}{!}{%
     \begin{tabular}{|l|p{4cm}|p{6cm}|p{3cm}|}
     \hline
     \textbf{Entità} & \textbf{Descrizione} & \textbf{Attributi} & \textbf{Identificatore} \\
@@ -375,6 +376,12 @@ Città & Contesto urbano inteso sia come spazio fisico sia come organizzazione s
     \hline
     PRODOTTO & Risultato di un progetto & ID prodotto, Nome, Data creazione & ID prodotto \\
     \hline
+    APPLICAZONE TECNOLOGICA & Prodotto software o hardware & Tecnologia, Tipo piattaforma & ID prodotto \\
+    \hline
+    SISTEMA FISICO & Prodotto fisico & Funzionalità, Durata vita & ID prodotto \\
+    \hline
+    SERVIZIO & Prodotto intangibile & Piano tariffario, Supporto tecnico & ID prodotto \\
+    \hline
     FEEDBACK & Opinione rilasciata da un cittadino & ID feedback, Descrizione, Valutazione & ID feedback \\
     \hline
     CERTIFICATO & Documento rilasciato dalla pubblica amministrazione & Nome certificato, Tipo certificato, Stato & Nome certificato, Tipo certificato \\
@@ -391,13 +398,15 @@ Città & Contesto urbano inteso sia come spazio fisico sia come organizzazione s
     \hline
     COLLABORA & Entita di passaggio da cui si ottengono informazioni su partnership e aziende & ID prt & ID partnership, ID azienda, ID prt \\
     \hline
-    \end{tabular}
+    \end{tabular}%
+    }
     \caption{Dizionario dei dati per le entità}
 \end{table}
 
 \subsubsection{Dizionario dei dati per le relazioni}
 \begin{table}[h!]
     \centering
+    \resizebox{\textwidth}{!}{%
     \begin{tabular}{|l|p{4cm}|p{6cm}|p{3cm}|}
     \hline
     \textbf{Relazione} & \textbf{Descrizione} & \textbf{Entità Coinvolte (con cardinalità)} & \textbf{Attributi} \\
@@ -408,7 +417,7 @@ Città & Contesto urbano inteso sia come spazio fisico sia come organizzazione s
     \hline
     APPARTENENZA & Associa un'idea a un settore & IDEA (1,1), SETTORE (1,N) & – \\
     \hline
-    FORNISCE & Rappresenta un cittadino attivo che propone un'idea & CITTADINO ATTIVO (1,N), IDEA (1,1) & data\_inserimento, descr \\
+    FORNISCE & Rappresenta un cittadino attivo che propone un'idea & CITTADINO ATTIVO (1,N), IDEA (1,1) & - \\
     \hline
     BASATO SU & Collega un progetto all’idea da cui deriva & PROGETTO (1,1), IDEA (1,1) & – \\
     \hline
@@ -439,7 +448,9 @@ Città & Contesto urbano inteso sia come spazio fisico sia come organizzazione s
     P-C & Associa una partnership ad una collaborazione(metodo per salvare dati sulle collaborazioni) & PARTNERSHIP (1,N), COLLABORAZIONE (1,1) & - \\
     \hline
     C-E & Associa un'azienda ad una collaborazione(metodo per salvare dati sulle collaborazioni) & AZIENDA (1,N), COLLABORAZIONE (1,1) & - \\
-    \end{tabular}
+    \hline
+    \end{tabular}%
+    }
     \caption{Dizionario dei dati per le relazioni}
 \end{table}
 
@@ -448,7 +459,7 @@ Città & Contesto urbano inteso sia come spazio fisico sia come organizzazione s
 \begin{par}
     \begin{enumerate}
         \item Un feedback deve riferirsi a un prodotto o a un idea, ma non a un progetto. \\
-        \item tra i prodotto i servizi non possono essere esposti ad un evento\\ ma solo i sistemi fisici e le applicazioni tecnologiche. \\
+        \item tra i prodotti i servizi non possono essere esposti ad un evento\\ ma solo i sistemi fisici e le applicazioni tecnologiche. \\
         \item Un cittadino attivo può proporre un'idea mentre un cittadino\\ non puo farlo dovrebbe prima diventare cittadino attivo. \\
         \item Un'azienda può realizzare un progetto solo se è in possesso di una certificazione sostenibile.\\
     \end{enumerate}
